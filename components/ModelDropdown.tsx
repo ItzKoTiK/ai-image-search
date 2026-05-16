@@ -28,7 +28,7 @@ export default function ModelDropdown({ containerId }: { containerId?: string })
       </DropdownMenuTrigger>
       <DropdownMenuContent container={container} className='w-200px'>
         <DropdownMenuRadioGroup value={model} onValueChange={setModel}>
-          <DropdownMenuRadioItem value='gemini-3.1-flash-lite-preview'>Flash Lite 3.1</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem value='gemini-3.1-flash-lite'>Flash Lite 3.1</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value='gemini-3-flash-preview'>Flash 3.0</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value='gemini-2.5-flash'>Flash 2.5</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>
